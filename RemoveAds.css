@@ -1,0 +1,15 @@
+/*Weather*/
+.MainPage_topBlockWithMoney__l4GBk, .MainPage_topBlockWithMoney_up__gxjkI,
+.AppForecastMoney_wrap__KdMw_,
+.AppPromoInner_container__mT1cB, .AppPromoInner_fixedBlockStyle__HCMLW,
+section.Money_ecomFooter__AzTRX,
+.AppLayout_aside-base__SC9ps:has(.AppMoneySidebar_wrap__2qJIK),
+
+/*Search*/
+.MMSidebar-Card_bottomAdv,
+
+/*360*/
+div[data-testid="page-layout_right-column_container"],
+.yrBuHlEQlx3gRLw {
+    display: none !important
+}
