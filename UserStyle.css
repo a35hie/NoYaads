@@ -6,4 +6,6 @@
 @author ash (asboy2035)
 ==/UserStyle== */
 
-@import url("https://cdn.jsdelivr.net/gh/asboy2035/NoYaads@main/RemoveAds.css");
+@-moz-document domain("yandex.ru"), domain("ya.ru"), domain("yandex.com") {
+  @import url("https://cdn.jsdelivr.net/gh/asboy2035/NoYaads@main/RemoveAds.css");
+}
