@@ -13,3 +13,9 @@ How to apply the blocking.
 4. **Report Missing Apps**
 
    If you use a Yandex service/app that doesn't have its ads blocked by this style, [create a GitHub Issue](https://github.com/asboy2035/NoYaads/issues/new).
+
+
+## Supported Services
+- Image Search
+- 360 Mail/Calendar
+- Weather
