@@ -1,11 +1,34 @@
 /* ==UserStyle==
 @name NoYaads
-@namespace asboy2035.com
-@version 0.0.1
+@namespace a35hie.me
+@version 0.1.0
 @description Removes ads on Yandex services on web.
-@author ash (asboy2035)
+@author ash (a35hie)
 ==/UserStyle== */
 
-@-moz-document domain("yandex.ru"), domain("ya.ru"), domain("yandex.com") {
-  @import url("https://cdn.jsdelivr.net/gh/asboy2035/NoYaads@main/RemoveAds.css");
+@-moz-document domain("yandex.ru"), domain("ya.ru"), domain("yandex.com"), domain("yandex.kz"), domain("yandex.by") {
+  /*Weather*/
+  .MainPage_topBlockWithMoney__l4GBk, .MainPage_topBlockWithMoney_up__gxjkI,
+  .AppForecastMoney_wrap__KdMw_,
+  .AppPromoInner_container__mT1cB, .AppPromoInner_fixedBlockStyle__HCMLW,
+  section.Money_ecomFooter__AzTRX,
+  .AppLayout_aside-base__SC9ps:has(.AppMoneySidebar_wrap__2qJIK),
+  div[class*="MainPage_topBlockWithMoney__"],
+
+    /*Search*/
+  .MMSidebar-Card_bottomAdv,
+  .AdvRsyaCrossPage,
+  div.JustifierRowLayout-Incut:has([aria-label="Баннер с рекламой"]),
+  div.ImagesViewer-LayoutSideblock > div > div > div:last-child,
+
+    /*360*/
+  div[data-testid="page-layout_right-column_container"],
+  div[data-testid="page-layout_right-column_container_v1"],
+  div[class*="ContentHeader-m__header"]:nth-child(2),
+
+    /*Maps*/
+  div.home-panel-content-view__body > div > div:last-child
+  {
+    display: none !important
+  }
 }
